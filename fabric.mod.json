@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswap",
+  "version": "${version}",
+  "name": "Elytra Swap",
+  "description": "Press a key to swap between your chestplate and elytra. Keybind and on/off toggle included.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.elytraswap.ElytraSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
